@@ -2,7 +2,7 @@
 
 This is follow-on proposal devired from [issue#218](https://github.com/tc39/proposal-record-tuple/issues/218) in [Records & Tuples proposal repository](https://github.com/tc39/proposal-record-tuple).
 
-Original author is [Evgeniy Istomin](https://github.com/MadProbe) (@MadProbe).
+Proposal author is [Evgeniy Istomin](https://github.com/MadProbe) (@MadProbe).
 
 ## Stage
 
@@ -35,6 +35,7 @@ function* gen() {
     yield* [0, 1, 2, 3, 4];
 }
 console.log(#<uint8_t>[...gen()]); // Logs #<uint8_t>[0, 1, 2, 3, 4], any iterator can be used when "resting" into typed tuple
+uint32_tuple[0] = 1; // TypeError: Cannot assign to read only property '0' of object '[object Uint32Tuple]'
 ```
 
 ### Syntax Errors
