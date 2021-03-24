@@ -1,4 +1,4 @@
-# Typed tuple proposal
+# Typed Tuples proposal
 
 This is follow-on proposal devired from [issue#218](https://github.com/tc39/proposal-record-tuple/issues/218) in [Records & Tuples proposal repository](https://github.com/tc39/proposal-record-tuple).
 
@@ -64,7 +64,7 @@ assert(Object(#<int>[0, 1]) !== Object(#<int>[0, 1])); // Object wrappers are di
 | Int32Tuple        | "int32-tuple"         | `#<int32_t>[...values]`         | int, int32, char32, char32_t                       |
 | Uint32Tuple       | "uint32-tuple"        | `#<uint32_t>[...values]`        | uint, uint32, uchar32, uchar32_t                   |
 | Float32Tuple      | "float32-tuple"       | `#<float32_t>[...values]`       | float, float32                                     |
-| Float64Tuple      | "float32-tuple"       | `#<float64_t>[...values]`       | double, float64                                    |
+| Float64Tuple      | "float64-tuple"       | `#<float64_t>[...values]`       | double, float64                                    |
 | BigInt64Tuple     | "bigint64-tuple"      | `#<bigint64_t>[...values]`      | int64, bigint64, int64_t                           |
 | BigUint64Tuple    | "biguint64-tuple"     | `#<biguint64_t>[...values]`     | uint64, biguint64, uint64_t                        |
 
