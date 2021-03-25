@@ -59,10 +59,10 @@ assert(Object(#<int>[0, 1]) !== Object(#<int>[0, 1])); // Object wrappers are di
 | Int8Tuple         | "int8-tuple"          | `#<int8_t>[...values]`          | char, int8, signed_char                            |
 | Uint8Tuple        | "uint8-tuple"         | `#<uint8_t>[...values]`         | byte, uint8, unsigned_char                         |
 | Uint8ClampedTuple | "uint8-tuple-clamped" | `#<uint8_clamped_t>[...values]` | byte_clamped, uint8_clamped, unsigned_char_clamped |
-| Int16Tuple        | "int16-tuple"         | `#<int16_t>[...values]`         | short, int16, char16, wchar_t, char16_t            |
-| Uint16Tuple       | "uint16-tuple"        | `#<uint16_t>[...values]`        | ushort, uint16, uchar16, uchar16_t                 |
-| Int32Tuple        | "int32-tuple"         | `#<int32_t>[...values]`         | int, int32, char32, char32_t, codepoint_t          |
-| Uint32Tuple       | "uint32-tuple"        | `#<uint32_t>[...values]`        | uint, uint32, uchar32, uchar32_t                   |
+| Int16Tuple        | "int16-tuple"         | `#<int16_t>[...values]`         | short, int16, char16, char16_t                     |
+| Uint16Tuple       | "uint16-tuple"        | `#<uint16_t>[...values]`        | ushort, uint16, uchar16, wchar_t, uchar16_t        |
+| Int32Tuple        | "int32-tuple"         | `#<int32_t>[...values]`         | int, int32, char32, char32_t                       |
+| Uint32Tuple       | "uint32-tuple"        | `#<uint32_t>[...values]`        | uint, uint32, uchar32, uchar32_t, codepoint_t      |
 | Float32Tuple      | "float32-tuple"       | `#<float32_t>[...values]`       | float, float32                                     |
 | Float64Tuple      | "float64-tuple"       | `#<float64_t>[...values]`       | double, float64                                    |
 | BigInt64Tuple     | "bigint64-tuple"      | `#<bigint64_t>[...values]`      | int64, bigint64, int64_t                           |
